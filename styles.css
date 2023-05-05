@@ -1,0 +1,98 @@
+:root{
+    --Pale-blue: hsl(225, 100%, 94%);
+    --Bright-blue: hsl(245, 75%, 52%);
+    --Very-pale-blue: hsl(225, 100%, 98%);
+    --Desaturated-blue: hsl(224, 23%, 55%);
+    --Dark-blue: hsl(223, 47%, 23%);
+}
+*{
+    margin: 0;
+padding: 0;
+}
+.corps{
+    position: absolute;
+    background-color: var(--Pale-blue);
+}
+.rectangle{
+    position: relative;
+    bottom: 250px;
+    left: 450px;
+    border-radius: 20px;
+    width: 350px;
+    height: 500px;
+    background-color: var(--Very-pale-blue);
+    box-shadow: 1px 5px 5px  rgb(204, 204, 204);
+
+}
+.img2{
+    width: 350px;
+    height: 165px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-bottom: 20px;
+}
+.element2 h2{
+    text-align: center;
+    opacity: 85%;
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.element2 p{
+    text-align: center;
+    margin: 10px;
+    opacity: 60%;
+    font-size: 16px;
+    font-size: small;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.element3{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 45px;
+    font-size: small;
+}
+.element3 p{
+    font-size: 15px;
+    font-size: small;
+    margin-top: 2px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.element3 data{
+    opacity: 50%;
+    font-size: small;
+}
+.element3 a{
+    margin-left: 70px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.img3{
+    height: 35px;
+    margin-top: 4px;
+    margin-left: 55px;
+    margin-right: 10px;
+}
+.element4 p{
+    border-radius: 8px;
+    background-color: var(--Bright-blue);
+    color: var(--Pale-blue);
+    box-shadow: 0px 15px 15px -10px #9ab3f9;
+    width: 280px;
+    margin-left: 35px;
+    padding-top: 10px;
+    font-size: small;
+    height: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+.element5 p{
+    text-align: center;
+    color: var(--Dark-blue);
+    opacity: 80%;
+    font-size: small;
+    font-family: 'Red Hat Display', sans-serif;
+}
